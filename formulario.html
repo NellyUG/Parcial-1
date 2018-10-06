@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+	<meta charset="utf-8">
+	<title>Formulario</title>
+	<link rel="stylesheet" href="estiloform.css">
+</head>
+<body>
+	<header>
+		<h1>Mi Primera Página</h1>
+		<nav>
+			<ul id="nav_header">
+				<li class="boton"><a href="#">Inicio</a></li>
+				<li class="boton"><a href="#">¿Quienes somos?</a></li>
+				<li class="boton"><a href="#">Servicios</a></li>
+				<li class="boton"><a href="#">Ubicación</a></li>
+				<li class="boton"><a href="#">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section id="wrapper">
+		<aside></aside>
+		<section>
+			<form>
+				<div>
+					<label>Nombre:</label>
+				</div>
+				<div>
+					<input type="text">
+				</div>
+
+				<div>
+					<label>Género:</label>
+				</div>
+				<div>
+					<input type="radio" name="genero"><span>Masculino</span>
+					<input type="radio" name="genero"><span>Femenino</span>
+				</div>
+
+				<div>
+					<label>Correo electrónico:</label>
+				</div>
+				<div>
+					<input type="text">
+				</div>
+
+				<div>
+					<label>Ciudad:</label>
+				</div>
+				<div>
+					<select>
+						<option value="Cancún" selected="selected">Cancún</option>
+						<option value="Querétaro">Querétaro</option>
+						<option value="Ciudad de México">Ciudad de México</option>
+						<option value="Culiacán">Culiacán</option>
+					</select>
+				</div>
+
+				<div>
+					<label>Interés:</label>
+				</div>
+				<div>
+					<input type="checkbox"><span>Diseño</span>
+					<input type="checkbox"><span>Programación</span>
+				</div>
+
+				<div>
+					<input type="submit" value="Enviar Registro">
+				</div>
+			</form>	
+		</section>
+		<div class="clearfix"></div>
+	</section>
+	<footer>
+		<p>Todos los derechos reservados. Desarrollado por Nelly Urdapilleta.</p>
+	</footer>
+</body>
+</html>
